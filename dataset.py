@@ -50,6 +50,18 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "I had a hella dope coffee this morning, lowkey feeling great",
+    "😂 Something terrible happened today. Can't wait to reveal later",
+    "I absolutely love getting stuck in traffic, it's the best part of my day",
+    "Well, that exam went great",
+    "That professor can do a better job at explaining the subject",
+    "I'm scared to fail the final exam",
+    "no cap this final literally ruined my whole week 💀",
+    "highkey obsessed with this playlist rn, on repeat all day",
+    "lol love how my wifi dies every single time I have a deadline",
+    "kinda nervous about the interview but also weirdly hyped 🙃",
+    "Excited to come back home now. I was stressed the whole day.",
+    "I hate to walk to school"
 ]
 
 # Human labels for each post above.
@@ -65,6 +77,18 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "positive",  # "I had a hella dope coffee this morning, lowkey feeling great",
+    "positive",     # "😂 Something terrible happened today. Can't wait to reveal later"
+    "negative",     # "I absolutely love getting stuck in traffic, it's the best part of my day"
+    "negative" ,     # "Well, that exam went great"
+    "negative",     # "That professor can do a better job at explaining the subject"
+    "negative",     # "I'm scared to fail the final exam"
+    "negative",     # "no cap this final literally ruined my whole week 💀"
+    "positive",    # "highkey obsessed with this playlist rn, on repeat all day
+    "negative",     # "lol love how my wifi dies every single time I have a deadline"
+    "mixed",     # "kinda nervous about the interview but also weirdly hyped
+    "positive",     # "Excited to come back home now. I was stressed the whole day.
+    "negative"      # "I hate to walk to school"
 ]
 
 # TODO: Add 5-10 more posts and labels.
